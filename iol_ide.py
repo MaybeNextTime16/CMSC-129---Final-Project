@@ -4,8 +4,9 @@ from collections import namedtuple
 from PySide6.QtWidgets import (
     QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
     QPlainTextEdit, QFileDialog, QTextEdit, QTableWidget, QTableWidgetItem,
-    QAction, QMessageBox, QInputDialog
+    QMessageBox
 )
+from PySide6.QtGui import QAction
 from PySide6.QtGui import QKeySequence
 from PySide6.QtCore import Qt
 
